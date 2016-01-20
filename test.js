@@ -1,7 +1,7 @@
 import expect from 'expect';
 import File from 'vinyl';
 import es from 'event-stream';
-import gulpHtmlnano from '.';
+import gulpHtmlnano from './index';
 
 const html = '<div>  <!-- test -->  </div>';
 const minifiedHtml = '<div></div>';
