@@ -1,0 +1,51 @@
+{
+  "name": "gulp-htmlnano",
+  "version": "0.1.0",
+  "description": "Minify HTML with htmlnano",
+  "main": "index.js",
+  "author": "Kirill Maltsev <maltsevkirill@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "node_modules/.bin/babel plugin.es6 --out-file plugin.js",
+    "lint": "node_modules/.bin/eslint plugin.es6 test.js",
+    "pretest": "npm run lint && npm run compile",
+    "test": "node_modules/.bin/_mocha --compilers js:babel-core/register --check-leaks test.js",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "gulpplugin",
+    "posthtml",
+    "posthtml-plugin",
+    "htmlnano",
+    "minifier"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "htmlnano": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-core": "^6.1.21",
+    "babel-eslint": "^4.1.5",
+    "babel-preset-es2015": "^6.1.18",
+    "eslint": "^1.9.0",
+    "event-stream": "^3.3.2",
+    "expect": "^1.13.0",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.4",
+    "vinyl": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maltsev/gulp-htmlnano.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maltsev/gulp-htmlnano/issues"
+  },
+  "homepage": "https://github.com/maltsev/gulp-htmlnano"
+}
