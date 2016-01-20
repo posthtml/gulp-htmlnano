@@ -15,11 +15,14 @@ npm install --save-dev gulp-htmlnano
 ```js
 var gulp = require('gulp');
 var htmlnano = require('gulp-htmlnano');
+var options = {
+    removeComments: false
+};
 
 gulp.task('default', function() {
     return gulp
         .src('./index.html')
-        .pipe(htmlnano())
+        .pipe(htmlnano(options))
         .pipe(gulp.dest('./build'));
 });
 ```
