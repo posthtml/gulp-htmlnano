@@ -14,7 +14,7 @@ npm install --save-dev gulp-htmlnano
 ## Usage
 ```js
 var gulp = require('gulp');
-var htmlnano = require('htmlnano');
+var htmlnano = require('gulp-htmlnano');
 
 gulp.task('default', function() {
     return gulp
