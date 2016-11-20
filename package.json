@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/maltsev/gulp-htmlnano.git"
+    "url": "git://github.com/posthtml/gulp-htmlnano.git"
   },
   "bugs": {
-    "url": "https://github.com/maltsev/gulp-htmlnano/issues"
+    "url": "https://github.com/posthtml/gulp-htmlnano/issues"
   },
-  "homepage": "https://github.com/maltsev/gulp-htmlnano"
+  "homepage": "https://github.com/posthtml/gulp-htmlnano"
 }

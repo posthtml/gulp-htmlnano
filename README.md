@@ -1,8 +1,8 @@
 # gulp-htmlnano
 [![npm version](https://badge.fury.io/js/gulp-htmlnano.svg)](http://badge.fury.io/js/gulp-htmlnano)
-[![Build Status](https://travis-ci.org/maltsev/gulp-htmlnano.svg?branch=master)](https://travis-ci.org/maltsev/gulp-htmlnano)
+[![Build Status](https://travis-ci.org/posthtml/gulp-htmlnano.svg?branch=master)](https://travis-ci.org/posthtml/gulp-htmlnano)
 
-Minify HTML with [htmlnano](https://github.com/maltsev/htmlnano).
+Minify HTML with [htmlnano](https://github.com/posthtml/htmlnano).
 
 
 ## Install
